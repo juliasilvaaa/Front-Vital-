@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        principalazul: '#0174DE'
+        principalazul: '#0174DE',
+        destaque: '#4B9AE7'
       },
       fontFamily: {
         poppins: 'var(--font-poppins)'
@@ -17,7 +18,14 @@ module.exports = {
         'medium': 500,
         'semi-bold': 600,
         'bold': 700
-      }
+      },
+      spacing: {
+        // Padronizando o tamanho dos icones
+        iconeWidth: '24px',
+        iconeHeight: '24px',
+        perfilH: '110px',
+        perfilW: '110px'
+    },
     },
   },
   plugins: [],
