@@ -1,15 +1,15 @@
 const LoginPage = () => {
   return (
     <div className="flex">
-      <img src="/img/doutor-login.png" alt="Login Illustration" className="relative w-5/12 h-screen flex" />
+      <img src="./img/lateral.png" alt="Login Illustration" className="relative w-5/12 h-screen flex" />
 
       <div className="absolute left-0 top-0">
-        <img src="/img/logo.png" alt="Logo" />
+        <img src="./img/logo.png" alt="Logo" />
       </div>
 
       <div id="telaDireita" className="">
         <div className="pl-96 ml-96">
-          <img src="/img/lateral -login.png" alt="Side Image" className="w-full relative" />
+          <img src="./img/onda.png" alt="Side Image" className="w-full relative" />
         </div>
 
         <div className="absolute ml-64 mt-[-90px]">
@@ -36,7 +36,7 @@ const LoginPage = () => {
               id="email"
               className="font-poppins shadow-2xl h-16 border border-gray-300 rounded-lg pl-6 pr-16 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full"
             />
-            <img src="/img/email-icone.png" alt="Email Icon" className="absolute right-6 top-1/2 transform -translate-y-1/2 w-6 h-6" />
+            <img src="./img/email.png" alt="Email Icon" className="absolute right-6 top-1/2 transform -translate-y-1/2 w-6 h-6" />
           </div>
         </div>
 
@@ -51,7 +51,7 @@ const LoginPage = () => {
               id="senha"
               className="font-poppins shadow-2xl h-16 border border-gray-300 rounded-lg pl-6 pr-16 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full"
             />
-            <img src="/img/senha-icone.png" alt="Password Icon" className="absolute right-6 top-1/2 transform -translate-y-1/2 w-6 h-6" />
+            <img src="./img/ocultar.png" alt="Password Icon" className="absolute right-6 top-1/2 transform -translate-y-1/2 w-6 h-6" />
           </div>
         </div>
 
